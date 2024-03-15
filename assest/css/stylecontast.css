@@ -1,0 +1,400 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+
+.background{
+    background-image:url(../image/blue_bg.png);
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+
+
+.page-head-left{
+    display: flex;
+    width: 80%;
+   padding: 25px;
+
+}
+.icon img{
+    height: 100px;
+   
+    
+}
+
+.left-items {
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 13px;
+text-decoration: none;
+
+}
+
+.left-items a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #444;
+    padding: 15px;
+
+}
+
+.page-head-right {
+    display: flex;
+    padding: 25px;
+    align-items: center;
+
+}
+.page-head-right button{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 5px 20px;
+    font-size: 13px;
+}
+
+/* nav end */
+
+
+.bodypart1{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+
+.left_side{
+    display: block;
+   
+
+}
+.up_pict1 h1, .up_pict1 p,
+.up_pict2 h1, .up_pict2 p,
+.down-pict2 h1, .down-pict2 p,
+.mid-pic h1, .mid-pic p {
+    margin-top: 10px;
+}
+
+
+.right_side{
+   position: relative;
+}
+.backg-picture{
+    
+
+}
+.Delivry-guy{
+position: absolute;
+right:180px;
+top: 30px;
+
+}
+.cloud{
+    position: absolute;
+    top: 275px;
+    right: 180px;
+    opacity: 0.9;
+}
+
+.waves {
+    position: absolute;
+    width: 138%;
+    height: 174px;
+    background-image: url(../image/waves.png);
+    background-size: cover;
+    bottom: 0px;
+    right: 0;
+
+    
+
+
+}
+
+/* start section2 */
+
+.bodypart2{
+position: relative;
+
+
+}
+.small-car{
+    position: absolute;
+    width: 100%;
+    height: 648px;
+    z-index: 1;
+}
+
+.small-car-img {
+    background-image: url(../image/second_section_.png);
+    width: 50%;
+    height: 648px;
+    position: absolute;
+    left: 100px;
+}
+
+.up_pict{
+    display: flex;    
+}
+
+.up_pict1, .up_pict2, .down-pict2 {
+ background: #fff;
+ z-index: 2;
+}
+
+.up_pict1{
+    margin : 60px ;
+    padding-left: 50px ;
+    
+    text-align: center;
+    width: 300px;
+}
+.up_pict1 h1{
+    color: #9a9a9a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+.up_pict1 p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    color: #9a9a9a;
+
+}
+
+
+.up_pict2{
+   
+    text-align: center;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 90px;
+
+}
+.up_pict2 h1{
+    color: #9a9a9a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+.up_pict2 p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    color: #9a9a9a;
+
+}
+
+
+
+.down-pict{
+    display: flex;
+   
+   
+}
+.down-pict1{
+    margin-top: 0px;
+    margin-left: 90px;
+    text-align: center;
+    width: 300px;
+    position: relative;
+}
+.down-pict1-content {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    text-align: left;
+}
+.down-pict1 p{
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+}
+.down-pict1 h1{
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    
+    
+}
+
+.down-pict2{
+    text-align: center;
+    width: 300px;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+.down-pict2 h1{
+    color: #9a9a9a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+.down-pict2 p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    color: #9a9a9a;
+
+
+}
+
+/* start section3 */
+
+.section3{
+    
+    display: flex;
+    margin-top: 120px;
+   
+
+}
+.left-pic {
+justify-content: left;
+width: 33%;
+margin-left: 230px;
+
+
+}
+.left-pic img{
+    margin-left: 73px;
+    padding-top: 70px;
+}
+.mid-pic{
+justify-content: center;
+width: 33%;
+text-align: center;
+
+
+}
+
+.mid-pic img{
+width: 200px;
+padding-top: 0px;
+padding-right: 30px;
+
+
+}
+.mid-pic h1{
+    color: #9a9a9a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    
+}
+.mid-pic p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    color: #9a9a9a;
+
+}
+
+.right-pic{
+    align-items: end;
+    width: 33%;
+    padding-left: 54px;
+}
+.right-pic img{
+    padding-top: 80px;
+    
+}
+
+
+/* start buttom section */
+
+.buttom-section{
+    position: relative;
+    display: flex;
+    margin-top: 93px;
+}
+
+.buttom-section-bg {
+    background-image: url(../image/Group\ 1131.png);
+    height: 390px;
+    width: 105%;
+    position: absolute;
+    bottom: 0;
+    left: -5%;
+    background-image: url(../image/Group\ 1131.png);
+    background-size: 107%;
+}
+.left-buttom{
+   flex: 50%;
+   z-index: 6;
+   padding-left: 120px;
+}
+
+.right-buttom {
+    flex: 50%;
+    padding-left: 0px;
+    z-index: 6;
+    padding-left: 74px;
+    position: relative;
+
+}
+
+.right-buttom  img {
+    height: 292px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+
+.buttom-minu {
+    display: flex;
+}
+
+.buttom-minu a {
+   color: #fff;
+   text-decoration: none;
+   margin-right: 20px;
+}
+
+.social-media {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.social-media img {
+    margin-right: 10px;
+    height: 20px;
+}
+
+.stores {
+    margin-top: 90px;
+    display: flex;
+}
+
+.apple-store, .gogole-play {
+    background: #fff;
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.apple-store p, .gogole-play p {
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+.apple-store img, .gogole-play img {
+    height: 18px;
+}
+
+.apple-store {
+    margin-right: 10px;
+}
+
+.left-buttom-stores{
+    position: absolute;
+    border: 1px solid red;
+
+
+}
+
+/* end thank me */
